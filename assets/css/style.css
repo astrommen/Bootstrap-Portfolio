@@ -4,11 +4,11 @@ body {
   background-image: url("https://assets.awwwards.com/awards/images/2015/04/pattern.jpg");
   margin: 0px;
 }
-.container {
+/* .container {
   width: 304px;
   display: grid;
-}
-/*--Style of Nav/Header for all pages--*/
+} */
+/*--Style of Nav/Header for all pgs--*/
 .topBorder{
   background-color: white;
   margin: 0px auto 40px;
@@ -44,9 +44,9 @@ body {
   text-decoration: none;
   margin: 0px -10px;
 }
-/*--End of Nav/Header for all pages--*/
+/*--End of Nav/Header for all pgs--*/
 
-/*--Style of Main Content--*/
+/*--Style of Main Content for all pgs--*/
 .container {
   width: 960px;
   margin: 0px auto 100px;
@@ -64,15 +64,40 @@ body {
   padding: 15px 0px 35px;
   border-bottom: 5px solid #969696;
 }
-.col-md-12 {
-margin: 30px 0px;
-padding: 0px;
-}
-
 img {
   float:left;
   margin: 0px 30px 30px 0px;
 }
+/*--End of Main Content for all pgs-->*/
+
+.col-md-12 { /*Index.html bio section, */
+  margin-top: 25px;
+  padding: 0px;
+  border: .5px solid black;
+}
+
+/*--Style of Portfolio.html--*/
+.photos {
+  position: relative;
+  width: 200px;
+  height: 150px;
+}
+.pic {
+  width: 200px;
+  height: 150px;
+}
+.text {
+  position: absolute;
+  width: 200px;
+  padding: 15px 0px; 
+  background-color: #4aaaa5;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  text-align: center;
+  color: #ffffff;
+  z-index: 1;
+  top: 55%;  
+}
+/*--End of Portfolio.html--*/
 
 /*--Style of Contact.html--*/
 form{
@@ -99,33 +124,6 @@ input[type=submit] {
 }
 /*--End of Contact.html--*/
 
-/*--Style of Portfolio.html--*/
-.gallery{
-  display: grid;
-  grid-template-columns: 230px 230px;
-  grid-gap: 30px 0px;
-}
-.photos {
-  position: relative;
-  width: 200px;
-  height: 150px;
-}
-.pic {
-  width: 200px;
-  height: 150px;
-}
-.text {
-  position: absolute;
-  width: 200px;
-  padding: 15px 0px; 
-  background-color: #4aaaa5;
-  font-family: 'Georgia', Times, Times New Roman, serif;
-  text-align: center;
-  color: #ffffff;
-  z-index: 1;
-  top: 55%;  
-}
-/*--End of Portfolio.html--*/
 
 footer {
   width: 100%;
