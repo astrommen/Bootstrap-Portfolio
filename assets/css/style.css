@@ -9,9 +9,12 @@ body {
   display: grid;
 } */
 /*--Style of Nav/Header for all pgs--*/
+.container-fluid{
+  width:100%;
+}
 .topBorder{
   background-color: white;
-  margin: 0px auto 40px;
+  margin: 0px 0px 40px;
   border-bottom: 2px solid #cccccc;
   line-height: 75px;
   position: relative;
@@ -96,6 +99,9 @@ img {
   z-index: 1;
   top: 55%;  
 }
+.col-md-offset-3{
+  
+}
 /*--End of Portfolio.html--*/
 
 /*--Style of Contact.html--*/
@@ -137,3 +143,6 @@ footer {
   width: 120px;
   margin: 0px auto;
 }
+/* [class*="col-"] {
+  width: 100%;
+} */
